@@ -1,0 +1,38 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-blackalsatian-services-block {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	background-color: #f3f3f3;
+	color: #999;
+	padding: 2px;
+	min-height: 700px;
+	margin-top: -28px;
+	margin-bottom: -28px;
+	.column {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		.service-name {
+			height: 12.5%;
+			font-size: 1.2rem;
+			padding: 0.2rem;
+			p {
+				margin-left: 1rem;
+			}
+		}
+		.service-selected {
+			padding: 4rem;
+		}
+	}
+	.selected {
+		background-color: #ccc;
+		color: #fff;
+	}
+}

@@ -1,0 +1,45 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-blackalsatian-content-block {
+	display: flex;
+	// align-items: flex-start;
+	flex-direction: 'row';
+	padding: 3rem;
+	min-height: 30vh;
+	margin-top: -28px;
+	color: #111827;
+	.title {
+		padding: 8rem;
+		text-align: 'right';
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border-right: 1px solid #111827;
+		h2 {
+			font-size: 2.25rem;
+			font-weight: 200;
+			line-height: 1;
+			margin-bottom: 2rem;
+			letter-spacing: -0.05em;
+		}
+		h4 {
+			text-transform: uppercase;
+			font-size: 0.875rem;
+			margin-top: 0;
+		}
+	}
+	.content {
+		padding: 4rem 8rem;
+		flex: 3;
+		display: flex;
+		font-size: 1rem;
+		flex-direction: column;
+		justify-content: center;
+	}
+}
